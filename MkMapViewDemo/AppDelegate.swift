@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MkMapViewDemo
 //
-//  Created by Macmini on 30/01/18.
+//  Created by Botla on 30/01/18.
 //  Copyright © 2018 wrc. All rights reserved.
 //
 
