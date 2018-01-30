@@ -12,6 +12,8 @@
 		9A80DA762020722F0000664C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A80DA742020722F0000664C /* Main.storyboard */; };
 		9A80DA782020722F0000664C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A80DA772020722F0000664C /* Assets.xcassets */; };
 		9A80DA7B2020722F0000664C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A80DA792020722F0000664C /* LaunchScreen.storyboard */; };
+		9A80DA8420207B710000664C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A80DA8320207B710000664C /* MapKit.framework */; };
+		9A80DA8620207B7C0000664C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A80DA8520207B7C0000664C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9A80DA772020722F0000664C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A80DA7A2020722F0000664C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A80DA7C2020722F0000664C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A80DA8320207B710000664C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9A80DA8520207B7C0000664C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A80DA8620207B7C0000664C /* CoreLocation.framework in Frameworks */,
+				9A80DA8420207B710000664C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,7 @@
 			children = (
 				9A80DA6F2020722F0000664C /* MkMapViewDemo */,
 				9A80DA6E2020722F0000664C /* Products */,
+				9A80DA8220207B710000664C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +69,15 @@
 				9A80DA7C2020722F0000664C /* Info.plist */,
 			);
 			path = MkMapViewDemo;
+			sourceTree = "<group>";
+		};
+		9A80DA8220207B710000664C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A80DA8520207B7C0000664C /* CoreLocation.framework */,
+				9A80DA8320207B710000664C /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
